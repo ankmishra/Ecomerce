@@ -70,7 +70,7 @@ module.exports.getProductByType = function(type,callback){
 }
 
 module.exports.getProductByBrand = function(brand,callback){
-  const query = {brand:brand}
+  const query = {brand:brand }
 //  console.log(username);
   productdetail.find(query,callback);
 }
